@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal (CV online).</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+
+    <header>
+     <div class="container">
+       <h1>Portfólio Pessoal de Karen Giovana da Paz</h1>
+    </div>
+</header>
+
+<!--Menu de navegação e links internos -->
+
+<nav>
+    <ul>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#formacao">Formação Educacional e Idiomas</a></li>
+        <li><a href="#portfolio">Meu Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+<!-- Seção sobre mim-->
+
+<section id="sobre">
+    <div class="container">
+        <h2>Sobre Mim</h2>
+        <p>Meu nome é Karen, tenho 22 anos e estou cursando Análise e Desenvolvimento de Sistemas. Meu sonho é trabalhar na área da tecnologia e sempre estar me desenvolvendo.</p>
+        <p>No meu tempo livre eu gosto de estar jogando ou assistindo séries, filmes ou jogando com as pessoas que gosto.</p>
+    </div>
+</section>
+
+<!--Seção formação e idiomas-->
+
+<section id="formacao">
+    <div class="container">
+        <h2>Formação e Idiomas</h2>
+        <p>Minha formação acadêmica é Ensino Superior cursando o 1° semestre de Análise e Desenvolvimento de Sistemas.</p>
+        <p>Meus idiomas são português nativo e estou começando a cursar a língua inglesa, pois o inglês é uma língua que vai agregar muito na minha carreira de programação.</p>
+    
+<!--Seção portfolio-->
+
+        <section id="portfolio">
+            <div class="container">
+                <h2>Portfólio</h2>
+                <p>Abaixo estão alguns projetos que desenvolvi utilizando o Google Colab.</p>
+                <p>Primeiro projeto foi de um programa para realizar pedidos em uma pizzaria.</p>
+                <img src="Pizzaria.png" alt="Pizzaria" width="500" height="400">
+                <p>Outro projeto que também realizei foi um programa para realizar cadastramento de contatos.</p>
+                <img src="Cadastrar.png" alt="Cadastrar" width="500" height="500">
+
+<!-- Seção Contato -->
+
+<section id="contato">
+    <div class="container">
+        <h2>Contato</h2>
+
+        <form id="form-contato">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+</section>    
+
+<script src="javascript/index.js"></script>
+
+</body>
+</html>
